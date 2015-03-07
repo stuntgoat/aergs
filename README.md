@@ -5,7 +5,7 @@
 
 Set attributes on an instance:
 
-    from aergs import Aergsx
+    from aergs import Aergs
 
     args = Aergs(consumer_key='CONSUMER_KEY')
     assert args.consumer_key == os.environ.get('CONSUMER_KEY')
